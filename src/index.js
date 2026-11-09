@@ -79,7 +79,7 @@ class PrecipitationPlugin {
             blue = dark ? 204 + Math.min(brightness * 408, 51) : 153 + Math.min(brightness * 204, 102);
 
         layer.setRainColor(`rgba(${rg}, ${rg}, ${blue}, 0.5)`);
-        layer.setSnowColor(`hsl(0, 0%, ${60 + Math.min(brightness * 160, 40)}%)`);
+        layer.setSnowColor(`hsl(340, 100%, ${80 + Math.min(brightness * 40, 20)}%)`);
     }
 
 }
